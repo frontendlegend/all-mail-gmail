@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "All Mail Gmail",
+	"version": "0.0.1",
+	"description": "Open all mail inbox by default",
+	"icons": {},
+	"permissions": [
+		"tabs"
+	],
+	"action": {
+		"default_icon": {},
+		"default_title": "All Mail Gmail"
+	},
+	"background": {
+		"service_worker": "amg-bg.js"
+	}
+}
